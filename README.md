@@ -11,7 +11,7 @@ I convert business problems into clear insights using analytics, automation, and
 ---
 
 ## 🌿 About Me
-I’m a **Business Information Technology student** at Yarmouk University *(Expected Graduation: 2025)*  
+I’m a **Business Information Technology student** at Yarmouk University *(Graduation: 2025)*  
 with hands-on experience in:
 
 - Data Analysis  
