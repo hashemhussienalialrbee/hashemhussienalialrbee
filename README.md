@@ -71,8 +71,8 @@ I enjoy transforming raw data into meaningful stories that support decision-maki
 # 📄 Download My CV & Portfolio
 
 <p align="center">
-  <a href="https://your-cv-link.com" target="_blank">
-    <img src="https://img.shields.io/badge/Download%20CV-0A66C2?style=for-the-badge&logo=googledrive&logoColor=white">
+  <a href="https://raw.githubusercontent.com/hashemhussienalialrbee/hashemhussienalialrbee/e3cabbe4e85a706ec424d71b7a5218fdb218c85a/HASHEM-HUSSEIN-ALI-ALRABIE-CV.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/Download%20CV-0A66C2?style=for-the-badge&logo=AdobeAcrobatReader&logoColor=white">
   </a>
 
   <a href="https://your-portfolio-link.com" target="_blank">
