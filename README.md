@@ -1,85 +1,88 @@
-# 👋 Hi, I'm Hashem Hussien Ali Alrabie
+![Profile Banner](https://via.placeholder.com/1500x350.png?text=Hashem+Hussien+Ali+Alrabie+-+Data+Analyst+%7C+BI+Specialist)
+
+# 👋 Hi, I'm **Hashem Hussien Ali Alrabie**
 
 🎯 **Data Analyst | Business Intelligence Specialist | Machine Learning Enthusiast**  
-💡 Transforming raw data into actionable insights using analytics, automation, and AI-driven visualization.
+I convert business problems into clear insights using analytics, automation, and AI-powered solutions.
 
 ---
 
-## 🧩 About Me
-I'm a **Business Information Technology student** at Yarmouk University *(Expected Graduation: 2025)*  
-with hands-on experience in **data analytics, BI systems, and predictive modeling**.  
-I’m passionate about turning complex datasets into clear, impactful business insights that drive smarter decisions.
+## 🌿 About Me
+I’m a **Business Information Technology student** at Yarmouk University *(Expected Graduation: 2025)*.  
+With hands-on experience in:
 
-📍 Based in Amman, Jordan  
-📚 Currently enhancing my skills through the **Advanced Data Analytics Program by Correlation One (USAID)**  
-🤖 Exploring how **AI and BI** can empower SMEs to optimize performance and financial visibility.
+- Data Analysis  
+- Business Intelligence (Power BI & Tableau)  
+- Python Programming  
+- Predictive Modeling  
+- Automation (n8n + APIs)  
+- SQL Analytics  
 
----
-
-## 🚀 Professional Experience
-**Advanced Data Analytics Trainee** – *Correlation One / USAID* (Oct 2024 – Mar 2025)  
-- Completed 250+ hours of intensive analytics training (Python, SQL, Power BI, ML).  
-- Applied machine learning models and data storytelling techniques for real-world cases.  
-
-**Python & Machine Learning Intern** – *Tuned Applications* (Mar 2022 – Jul 2022)  
-- Built predictive models and automated analysis workflows using Python and Scikit-learn.  
-
-**Power BI Training** – *Qafza Academy* (Dec 2024)  
-- Designed interactive dashboards with advanced DAX & Power Query transformations.
+I enjoy transforming raw data into meaningful stories that support decision-making.
 
 ---
 
-## 🧠 Technical Skills
-**Data Analytics & Visualization:** Power BI, Tableau, Excel  
-**Programming & Databases:** Python, SQL  
-**Core Competencies:** Data Cleaning, ETL, Machine Learning, Statistical Analysis  
-**Soft Skills:** Critical Thinking, Problem Solving, Communication, Teamwork, Leadership
+# 🛠️ Skills & Technologies
+
+### **📊 Data & BI**
+- Power BI  
+- Tableau  
+- Power Query  
+- DAX  
+- Excel (Advanced)  
+- Business Reporting  
+
+### **💻 Programming**
+- Python (Pandas, NumPy, Matplotlib, Scikit-Learn)  
+- SQL (MySQL, PostgreSQL)
+
+### **🤖 Machine Learning**
+- Regression  
+- Classification  
+- Clustering  
+- Feature Engineering  
+
+### **⚙ Automation**
+- n8n  
+- ETL Pipelines  
+- API Integration  
 
 ---
 
-## 🧾 Featured Projects
+# 📁 Featured Projects
 
-🔹 [**Map Project**](https://github.com/hashemhussienalialrbee/Map-project)  
-🗺️ A Python-based interactive map built using **Tkinter**, visualizing geographical data of Jordan for analytical insights.
+| Project | Description | Tools |
+|--------|-------------|--------|
+| **Sales & Employee Performance Dashboard** | BI dashboard analyzing KPIs, employee productivity, and sales insights | Power BI |
+| **Customer Segmentation ML Model** | Clustering model for understanding customer behavior | Python, Scikit-Learn |
+| **SQL Business Case Study** | Insights using complex SQL queries (RANK, KPIs, trends) | SQL |
+| **Data Automation Workflow** | Automated data refresh using n8n + APIs | n8n, Python |
 
-🔹 [**Report - Car Sales**](https://github.com/hashemhussienalialrbee/Report-Car-sales)  
-🚗 Interactive **Power BI** dashboard analyzing car sales performance across regions and brands.
-
-🔹 [**Sales Q1 Dashboard**](https://github.com/hashemhussienalialrbee/Sales-Q1)  
-📊 A business intelligence dashboard built with **Power BI**, highlighting Q1 revenue trends and performance KPIs.
-
-🔹 [**Report - Startup Funding**](https://github.com/hashemhussienalialrbee/Report-startup-funding)  
-💼 Power BI dashboard analyzing startup funding data to uncover investment patterns and growth opportunities.
-
-🔹 [**QR Code Generator (Python)**](https://github.com/hashemhussienalialrbee/QR-code-of-python)  
-🔖 Simple yet practical **Python project** for generating and saving custom QR codes.
-
-🔹 [**Cheat Sheet Repository**](https://github.com/hashemhussienalialrbee/Cheat-Sheet)  
-📘 A personal collection of **Data Analytics and Python quick references** for faster learning and prototyping.
+> إذا بدك روابط GitHub للمشاريع — ابعتهم وأركّبهم بالجدول.
 
 ---
 
-## 🎓 Certifications
-- 🧩 IBM Data Analyst Professional Certificate *(Feb 2025)*  
-- 🧮 Tech for Jobs Advanced Data Analytics (Correlation One / USAID)  
-- 🗃️ The Complete SQL Course – Lengo Academy *(Feb 2025)*  
-- ⚙️ Data Engineering Intensive – Qafza Tech *(Feb 2025)*  
-- 📊 Power BI Workshop – IEEE Computer Society *(Jan 2025)*  
-- 🤖 Artificial Intelligence & Data Science – HTU *(Sep 2024)*  
-- 💼 Business, Management & Leadership Certifications – HTU *(Sep 2024)*  
+# 📊 GitHub Stats
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=hashemhussienalialrbee&show_icons=true&hide_border=true" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=hashemhussienalialrbee&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hashemhussienalialrbee&layout=compact&hide_border=true" />
+</p>
 
 ---
 
-## 📊 GitHub Stats
-![Hashem's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hashemhussienalialrbee&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hashemhussienalialrbee&layout=compact&theme=tokyonight)
+# 🤝 Connect With Me
+
+📧 **Email:** hashemhussienalialrbee@gmail.com  
+💼 **LinkedIn:** https://www.linkedin.com/in/hashem-hussein-a304b424a  
+📷 **Instagram:** https://instagram.com/hashamalrabee  
+📘 **Facebook:** https://www.facebook.com/profile.php?id=100086883750820  
+👻 **Snapchat:** https://www.snapchat.com/add/hashemalrab2021  
 
 ---
 
-## 🌐 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hashem%20Alrabiee-blue?logo=linkedin)](https://www.linkedin.com/in/hashemalrabiee)
-[![Email](https://img.shields.io/badge/Email-hashemhussein2022%40gmail.com-red?logo=gmail)](mailto:hashemhussein2022@gmail.com)
-
----
-
-### ✨ “Turning Data into Smart Business Decisions.”
+⭐ *If you like my work, feel free to star my repositories or connect with me!*
