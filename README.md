@@ -1,16 +1,58 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hashemhussienalialrbee/hashemhussienalialrbee/9f9eec2390400fa0b78f4536ca413b92a76afc74/file_0000000064ac71fd980335e43f823b05.png" width="100%">
+  <img src="https://raw.githubusercontent.com/hashemhussienalialrbee/hashemhussienalialrbee/9f9eec2390400fa0b78f4536ca413b92a76afc74/file_0000000064ac71fd980335e43f823b05.png" alt="Hashem Hussien Ali Alrabie Banner" width="100%">
 </p>
 
-<h1 align="center">👋 Hi, I'm <strong>Hashem Hussien Ali Alrabie</strong></h1>
+# 👋 Hi, I'm **Hashem Hussien Ali Alrabie**
 
-<p align="center">
-  <b>Data Analyst • BI Developer • Machine Learning Enthusiast</b><br>
-  Transforming data into insights, dashboards, and automation workflows.
-</p>
+🎯 **Data Analyst | BI Specialist | Machine Learning Enthusiast**  
+I convert business problems into clear insights using analytics, automation, and AI-powered solutions.
 
 ---
+
+## 🌿 About Me
+I’m a **Business Information Technology student** at Yarmouk University *(Expected Graduation: 2025)*  
+with hands-on experience in:
+
+- Data Analysis  
+- Business Intelligence (Power BI & Tableau)  
+- Python Development  
+- Machine Learning  
+- Automation (n8n + APIs)  
+- SQL Analytics  
+
+I enjoy transforming raw data into meaningful stories that support decision-making.
+
+---
+
+## 🛠️ Skills & Technologies
+
+### **📊 Data & BI**
+- Power BI  
+- Tableau  
+- Power Query  
+- DAX  
+- Excel (Advanced)  
+
+### **💻 Programming**
+- Python (Pandas, NumPy, Matplotlib, Scikit-Learn)  
+- SQL (MySQL, PostgreSQL)
+
+### **🤖 Machine Learning**
+- Regression  
+- Classification  
+- Clustering  
+
+### **⚙ Automation**
+- n8n  
+- ETL  
+- API Integration  
+
+---
+
+
+
+
 
 # 📁 Featured Projects (with GitHub Links)
 
@@ -39,22 +81,7 @@
 </p>
 
 > 📌 **Send me your real links**, and I will replace them.
-
 ---
-
-# 📊 GitHub Stats
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=hashemhussienalialrbee&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=hashemhussienalialrbee&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hashemhussienalialrbee&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
 # 🤝 Connect With Me
 
 <p align="center">
