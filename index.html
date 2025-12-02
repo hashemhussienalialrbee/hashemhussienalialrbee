@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Hashem Hussien Ali Alrabie — Data Analyst Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Simple favicon (optional) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>HH</text></svg>">
+
+<style>
+  :root{
+    --bg-1:#07182a; --bg-2:#071025;
+    --card: rgba(255,255,255,0.03);
+    --muted:#a9c0cc; --accent:#00c2d1; --accent-2:#2dd4bf;
+    --glass: rgba(255,255,255,0.03);
+    --radius:14px; --max-width:1150px;
+    font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color-scheme: dark;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0; background: linear-gradient(180deg,var(--bg-1),var(--bg-2));
+    color:#e6f6f8; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+  }
+  a{color:inherit}
+  .wrap{max-width:var(--max-width);margin:28px auto;padding:20px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:20px}
+  .brand{display:flex;gap:14px;align-items:center}
+  .logo{width:64px;height:64px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;font-weight:800;color:#042;font-size:20px;box-shadow:0 12px 30px rgba(0,0,0,0.45)}
+  h1{margin:0;font-size:20px}
+  .lead{margin:0;color:var(--muted);font-size:13px}
+  .actions{display:flex;gap:10px;align-items:center}
+  .btn{background:var(--glass);border:1px solid rgba(255,255,255,0.03);padding:10px 14px;border-radius:10px;color:inherit;text-decoration:none;display:inline-flex;gap:10px;align-items:center;font-weight:600;transition:transform .18s,box-shadow .18s}
+  .btn:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,0.45)}
+  .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#042}
+
+  .hero{display:grid;grid-template-columns:1fr 360px;gap:20px;margin-top:22px;align-items:stretch}
+  .card{background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);padding:20px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 18px 40px rgba(2,6,23,0.6)}
+  .intro h2{margin:0 0 6px; font-size:22px}
+  .intro p{margin:0;color:var(--muted);font-size:14px}
+  .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .skill{background:transparent;border:1px solid rgba(255,255,255,0.04);padding:8px 10px;border-radius:10px;font-size:13px;color:var(--muted)}
+  .projects{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px}
+  .project{display:block;padding:14px;border-radius:10px;text-decoration:none;color:inherit;background:linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);transition:transform .18s,box-shadow .18s;min-height:120px;position:relative;overflow:hidden}
+  .project:hover{transform:translateY(-6px);box-shadow:0 18px 30px rgba(0,0,0,0.6)}
+  .project h3{margin:0 0 6px 0;font-size:16px}
+  .project p{margin:0;color:var(--muted);font-size:13px}
+  .preview{width:100%;height:80px;border-radius:8px;object-fit:cover;margin-top:10px;border:1px solid rgba(255,255,255,0.02)}
+  .tags{position:absolute;right:12px;bottom:12px;display:flex;gap:8px;flex-wrap:wrap}
+  .tag{background:rgba(0,0,0,0.22);padding:6px 8px;border-radius:8px;font-size:12px;color:var(--muted)}
+  .kpis{display:flex;flex-direction:column;gap:12px}
+  .kpi{padding:14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#042;font-weight:700;display:flex;justify-content:space-between;align-items:center}
+  .kpi small{font-weight:600;color:rgba(0,0,0,0.55)}
+  .gh-stats img{border-radius:10px;border:1px solid rgba(255,255,255,0.03);width:100%}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px;padding:18px 0}
+  /* responsive */
+  @media (max-width:980px){
+    .hero{grid-template-columns:1fr}
+    .projects{grid-template-columns:1fr}
+    .grid3{grid-template-columns:1fr}
+    .logo{width:56px;height:56px}
+  }
+  /* subtle animations */
+  .fade{animation:fadeIn .7s ease both}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+  <div class="wrap fade">
+    <header>
+      <div class="brand">
+        <div class="logo">HH</div>
+        <div>
+          <h1>Hashem Hussien Ali Alrabie</h1>
+          <p class="lead">Data Analyst • Power BI Specialist • Automation</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a class="btn" href="mailto:hashemhussienalialrbee@gmail.com">✉ Email</a>
+        <a class="btn primary" id="downloadCV">⬇ Download CV</a>
+        <a class="btn" href="https://github.com/hashemhussienalialrbee" target="_blank">GitHub</a>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="card intro">
+        <h2>Hello — I build data products & dashboards</h2>
+        <p>I’m a Business Information Technology student at Yarmouk University (Grad 2025). I design interactive Power BI dashboards, build ML models, and automate data workflows with n8n & Python.</p>
+
+        <div class="skills" aria-hidden="true">
+          <div class="skill">Power BI</div>
+          <div class="skill">DAX & Power Query</div>
+          <div class="skill">Python (Pandas, sklearn)</div>
+          <div class="skill">SQL</div>
+          <div class="skill">n8n</div>
+        </div>
+
+        <h3 style="margin-top:14px">Featured Projects</h3>
+
+        <div class="projects">
+          <!-- Projects: update images / links if needed -->
+          <a class="project" href="https://github.com/hashemhussienalialrbee/Global-Sales-Intelligence" target="_blank">
+            <h3>Global Sales Intelligence</h3>
+            <p>Global KPIs, profit & channel analysis (Power BI).</p>
+            <img class="preview" src="https://raw.githubusercontent.com/hashemhussienalialrbee/Global-Sales-Intelligence/main/Global%20Sales%20Intelligence.png" alt="Global Sales Intelligence preview">
+            <div class="tags"><span class="tag">Power BI</span></div>
+          </a>
+
+          <a class="project" href="https://github.com/hashemhussienalialrbee/Supply-Chain-Performance" target="_blank">
+            <h3>Vendor / Supply Chain Performance</h3>
+            <p>Delivery delays, cancellations, vendor KPIs.</p>
+            <img class="preview" src="https://raw.githubusercontent.com/hashemhussienalialrbee/Supply-Chain-Performance/main/Vendor%20Performance.png" alt="Vendor Performance preview">
+            <div class="tags"><span class="tag">Power BI</span></div>
+          </a>
+
+          <a class="project" href="https://github.com/hashemhussienalialrbee/Report-Sales2020" target="_blank">
+            <h3>Sales Report 2020</h3>
+            <p>Branch & product sales performance (2020).</p>
+            <img class="preview" src="https://raw.githubusercontent.com/hashemhussienalialrbee/Report-Sales2020/main/Sales%20Report%202020.png" alt="Sales Report 2020 preview">
+            <div class="tags"><span class="tag">Power BI</span></div>
+          </a>
+
+          <a class="project" href="https://github.com/hashemhussienalialrbee/InsightMart-360" target="_blank">
+            <h3>InsightMart 360</h3>
+            <p>Customers, employees, products — 360° analytics.</p>
+            <img class="preview" src="https://raw.githubusercontent.com/hashemhussienalialrbee/InsightMart-360/main/Overview.png" alt="InsightMart 360 preview">
+            <div class="tags"><span class="tag">Power BI</span></div>
+          </a>
+
+          <a class="project" href="https://github.com/hashemhussienalialrbee/Urban-Mobility-Insights" target="_blank">
+            <h3>Urban Mobility Insights</h3>
+            <p>Trip analysis, modes, and weather effects.</p>
+            <img class="preview" src="https://raw.githubusercontent.com/hashemhussienalialrbee/Urban-Mobility-Insights/main/Urban%20Mobility%20Insights.png" alt="Urban Mobility preview">
+            <div class="tags"><span class="tag">Power BI</span></div>
+          </a>
+
+          <a class="project" href="https://github.com/hashemhussienalialrbee/Housing_Al_Raha" target="_blank">
+            <h3>Housing Al Raha Dashboard</h3>
+            <p>Property listing analytics & pricing insights.</p>
+            <img class="preview" src="https://raw.githubusercontent.com/hashemhussienalialrbee/Housing_Al_Raha/main/Housing_Al_Raha.png" alt="Housing Al Raha preview">
+            <div class="tags"><span class="tag">Power BI</span></div>
+          </a>
+
+          <a class="project" href="https://github.com/hashemhussienalialrbee/Nike-Jordan-Data-Analysis" target="_blank">
+            <h3>Nike Jordan Data Analysis</h3>
+            <p>Product pages & sales analytics for Nike models.</p>
+            <div class="tags"><span class="tag">Power BI</span></div>
+          </a>
+
+        </div>
+
+      </div>
+
+      <aside>
+        <div class="card kpis" style="width:320px">
+          <div class="kpi"><span>Interactive Dashboards</span><small>Power BI • Tableau</small></div>
+          <div style="height:12px"></div>
+          <div class="kpi"><span>Automation</span><small>n8n • APIs • Python</small></div>
+          <div style="height:12px"></div>
+          <div class="kpi"><span>Machine Learning</span><small>Clustering • Regression</small></div>
+        </div>
+
+        <div class="card" style="width:320px;margin-top:12px">
+          <h3 style="margin:0 0 6px 0">GitHub Stats</h3>
+          <div style="margin-top:10px">
+            <img class="gh-stats" src="https://github-readme-stats.vercel.app/api?username=hashemhussienalialrbee&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats">
+            <img style="margin-top:10px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hashemhussienalialrbee&layout=compact&theme=transparent&hide_border=true" alt="Top languages">
+          </div>
+        </div>
+
+        <div class="card" style="width:320px;margin-top:12px">
+          <h3 style="margin:0 0 6px 0">Contact</h3>
+          <p style="margin:0 0 8px 0;color:var(--muted)">Email or LinkedIn — happy to collaborate.</p>
+          <div style="display:flex;gap:8px;margin-top:6px;flex-wrap:wrap">
+            <a class="btn" href="mailto:hashemhussienalialrbee@gmail.com">Email</a>
+            <a class="btn" href="https://www.linkedin.com/in/hashem-hussein-a304b424a" target="_blank">LinkedIn</a>
+            <a class="btn" id="callBtn">Call</a>
+          </div>
+          <p style="margin-top:10px;color:var(--muted);font-size:13px">Phone: +962 777 235 693</p>
+        </div>
+      </aside>
+    </main>
+
+    <section style="margin-top:18px">
+      <div class="card">
+        <h2 style="margin-top:0">All Projects</h2>
+        <p style="color:var(--muted)">Click a project to open its repository on GitHub.</p>
+        <div class="grid3" style="margin-top:12px">
+          <!-- Duplicate blocks for more projects; you can add more -->
+          <a class="project" href="https://github.com/hashemhussienalialrbee/Customer-Segmentation" target="_blank">
+            <h3>Customer Segmentation</h3>
+            <p>Clustering & customer profiling (Python).</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">ML</span></div>
+          </a>
+
+          <a class="project" href="https://github.com/hashemhussienalialrbee/HR-Data-Analysis" target="_blank">
+            <h3>HR Data Analysis</h3>
+            <p>Employee dashboards & training cost analysis.</p>
+            <div class="tags"><span class="tag">Power BI</span></div>
+          </a>
+
+          <a class="project" href="https://github.com/hashemhussienalialrbee/Report-Sales2020" target="_blank">
+            <h3>Sales Report 2020</h3>
+            <p>Branch & product performance dashboards.</p>
+            <div class="tags"><span class="tag">Power BI</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div style="color:var(--muted)">© <span id="year"></span> Hashem Hussien Ali Alrabie — Data Analyst • Power BI • Automation</div>
+    </footer>
+  </div>
+
+<script>
+  // CONFIG: set your real CV URL here
+  const CV_URL = 'https://raw.githubusercontent.com/hashemhussienalialrbee/hashemhussienalialrbee/main/Hashem_CV.pdf'; // <-- replace with your CV link or empty if none
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  document.getElementById('downloadCV').addEventListener('click', function(){
+    if(!CV_URL || CV_URL.includes('replace')){
+      alert('Please set CV_URL in the HTML to your CV file link before downloading.');
+      return;
+    }
+    window.open(CV_URL, '_blank');
+  });
+
+  document.getElementById('callBtn').addEventListener('click', function(){
+    // triggers phone call on supported devices
+    window.location.href = 'tel:+962777235693';
+  });
+
+  // Graceful fallback for images: if an image 404s, hide it
+  document.querySelectorAll('.preview').forEach(img=>{
+    img.addEventListener('error', ()=> img.style.display='none');
+  });
+</script>
+</body>
+</html>
